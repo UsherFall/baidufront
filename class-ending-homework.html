@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework.css">
+    <script type="text/javascript" src="homework.js"></script>
+</head>
+    
+<body>
+    <!-- 头部信息及醒目大图 -->
+    <div class="head">
+        <div class="navbar">
+            <div class="navbar-left">
+                <img src="image/navlogo.webp" class="navbar-logo">
+                <span class="navbar_title">百度前端学院</span>
+            </div>
+            <div class="navbar-right">
+                <span><a class="link">学习资源</a></span>
+                <span><a class="link">交流中心</a></span>
+                <span><a class="link">服务市场</a></span>
+                <span><a class="link">开源联盟</a></span>
+                <span class="personal-center">个人中心</span>
+            </div>
+        </div>
+        <h1>百度前端训练营2022开营啦，快来报名吧！</h1>
+    </div>
+    <!-- 报名区域 -->
+    <div class="sign-up">
+        <span class="school">
+            <p>选择您的学校</p>
+            <input type="text" class="school-input" value="选中示例大学"readonly="readonly">
+            <div class="schools">
+                <ul class="province-box">
+                    <li><a>广东省</a></li>
+                    <li><a>江苏省</a></li>
+                    <li><a>山东省</a></li>
+                    <li><a>北京市</a></li>
+                    <li><a>上海市</a></li>
+                    <li><a>湖南省</a></li>
+                    <li><a>湖北省</a></li>
+                    <li><a>陕西省</a></li>
+                    <li><a>河南省</a></li>
+                    <li><a>四川省</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>中山大学</a></li>
+                    <li><a>华南理工大学</a></li>
+                    <li><a>暨南大学</a></li>
+                    <li><a>华南农业大学</a></li>
+                    <li><a>广州中医药大学</a></li>
+                    <li><a>华南师范大学</a></li>
+                    <li><a>汕头大学</a></li>
+                    <li><a>广东海洋大学</a></li>
+                    <li><a>广州美术学院</a></li>
+                    <li><a>星海音乐学院</a></li>
+                    <li><a>深圳大学</a></li>
+                    <li><a>韩山师范学院</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>南京大学</a></li>
+                    <li><a>东南大学</a></li>
+                    <li><a>中国矿业大学</a></li>
+                    <li><a>苏州大学</a></li>
+                    <li><a>南京航空航天</a></li>
+                    <li><a>南京理工大学</a></li>
+                    <li><a>河海大学</a></li>
+                    <li><a>江南大学</a></li>
+                    <li><a>南京农业大学</a></li>
+                    <li><a>中国药科大学</a></li>
+                    <li><a>南京师范大学</a></li>
+                    <li><a>江苏大学</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>山东大学</a></li>
+                    <li><a>中国海洋大学</a></li>
+                    <li><a>哈尔滨工业大学</a></li>
+                    <li><a>中国石油大学</a></li>
+                    <li><a>山东科技大学</a></li>
+                    <li><a>青岛科技大学</a></li>
+                    <li><a>山东建筑大学</a></li>
+                    <li><a>齐鲁工业大学</a></li>
+                    <li><a>山东农业大学</a></li>
+                    <li><a>青岛农业大学</a></li>
+                    <li><a>山东师范大学</a></li>
+                    <li><a>聊城大学</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>北京大学</a></li>
+                    <li><a>中国人民大学</a></li>
+                    <li><a>清华大学</a></li>
+                    <li><a>北京航空航天大学</a></li>
+                    <li><a>北京理工大学</a></li>
+                    <li><a>中国农业大学</a></li>
+                    <li><a>北京师范大学</a></li>
+                    <li><a>中央民族大学</a></li>
+                    <li><a>北京交通大学</a></li>
+                    <li><a>北京工业大学</a></li>
+                    <li><a>北京科技大学</a></li>
+                    <li><a>北京邮电大学</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>同济大学</a></li>
+                    <li><a>上海交通大学</a></li>
+                    <li><a>华东师范大学</a></li>
+                    <li><a>华东理工大学</a></li>
+                    <li><a>东华大学</a></li>
+                    <li><a>上海中医药大学</a></li>
+                    <li><a>上海财经大学</a></li>
+                    <li><a>上海大学</a></li>
+                    <li><a>上海理工大学</a></li>
+                    <li><a>上海水产大学</a></li>
+                    <li><a>上海师范大学</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>湖南大学</a></li>
+                    <li><a>中南大学</a></li>
+                    <li><a>湖南师范大学</a></li>
+                    <li><a>湘潭大学</a></li>
+                    <li><a>吉首大学</a></li>
+                    <li><a>湖南农业大学</a></li>
+                    <li><a>湖南理工学院</a></li>
+                    <li><a>衡阳师范学院</a></li>
+                    <li><a>湖南文理学院</a></li>
+                    <li><a>湖南工商大学</a></li>
+                    <li><a>南华大学</a></li>
+                    <li><a>邵阳学院</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>武汉大学</a></li>
+                    <li><a>华中科技大学</a></li>
+                    <li><a>华中农业大学</a></li>
+                    <li><a>华中师范大学</a></li>
+                    <li><a>武汉理工大学</a></li>
+                    <li><a>中国地质大学</a></li>
+                    <li><a>武汉工程大学</a></li>
+                    <li><a>武汉科技学院</a></li>
+                    <li><a>武汉轻工大学</a></li>
+                    <li><a>湖北大学</a></li>
+                    <li><a>湖北师范学院</a></li>
+                    <li><a>黄冈师范学院</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>西安交通大学</a></li>
+                    <li><a>西北工业大学</a></li>
+                    <li><a>西北农林科技</a></li>
+                    <li><a>西北大学</a></li>
+                    <li><a>西安电子科技</a></li>
+                    <li><a>陕西师范大学</a></li>
+                    <li><a>长安大学</a></li>
+                    <li><a>第四军医大学</a></li>
+                    <li><a>西安理工大学</a></li>
+                    <li><a>西安工业大学</a></li>
+                    <li><a>陕西科技大学</a></li>
+                    <li><a>西安工程大学</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>郑州大学</a></li>
+                    <li><a>河南科技大学</a></li>
+                    <li><a>中原工学院</a></li>
+                    <li><a>河南农业大学</a></li>
+                    <li><a>新乡医学院</a></li>
+                    <li><a>河南大学</a></li>
+                    <li><a>河南师范大学</a></li>
+                    <li><a>周口师范学院</a></li>
+                    <li><a>安阳师范学院</a></li>
+                    <li><a>许昌学院</a></li>
+                    <li><a>南阳师范学院</a></li>
+                    <li><a>商丘师范学院</a></li>
+                </ul>
+                <ul class="schools-box">
+                    <li><a>电子科技大学</a></li>
+                    <li><a>四川大学</a></li>
+                    <li><a>西南交通大学</a></li>
+                    <li><a>四川农业大学</a></li>
+                    <li><a>西南财经大学</a></li>
+                    <li><a>西南石油大学</a></li>
+                    <li><a>成都理工大学</a></li>
+                    <li><a>西南科技大学</a></li>
+                    <li><a>四川医科大学</a></li>
+                    <li><a>川北医学院</a></li>
+                    <li><a>四川师范大学</a></li>
+                    <li><a>绵阳师范学院</a></li>
+                </ul>
+            </div>
+        </span>
+        <span class="year">
+            <p>选择您入学年份</p>
+            <input type="text" class="years-input" value="2018" readonly="readonly">
+            <div class="border"></div>
+            <ul class="years-ul">
+                <li><a class="years">2010</a></li>
+                <li><a class="years">2011</a></li>
+                <li><a class="years">2012</a></li>
+                <li><a class="years">2013</a></li>
+                <li><a class="years">2014</a></li>
+                <li><a class="years">2015</a></li>
+                <li><a class="years">2016</a></li>
+                <li><a class="years">2017</a></li>
+                <li><a class="years">2018</a></li>
+                <li><a class="years">2019</a></li>
+                <li><a class="years">2020</a></li>
+                <li><a class="years">2021</a></li>
+            </ul>
+        </span>
+        <span class="email">
+            <p>输入您的电子邮箱</p>
+            <input type="text" class="email-input" placeholder="邮箱">
+        </span>
+        <span class="sign-up-box">报名</span>
+    </div>
+    <div class="information-verification"></div>
+    <div class="success-box">
+        <p class="prompt">您已完成报名，开始您的学习之旅吧！</p>
+        <div class="change">重新报名</div>
+    </div>
+    <!-- 中部宣传 -->
+    <div class="publicity">
+        <h2>你将得到</h2>
+        <ul>
+            <li>
+                <p>专业指导</p>
+                <img src="image/introduce.webp" alt="">
+            </li>
+            <li>
+                <p>实践项目</p>
+                <img src="image/project.webp" alt="">
+            </li>
+            <li>
+                <p>总结回顾</p>
+                <img src="image/review.webp" alt="">
+            </li>
+            <li>
+                <p>交流伙伴</p>
+                <img src="image/communication.webp" alt="">
+            </li>
+        </ul>
+    </div>
+    <!-- 课程信息 -->
+    <div class="class-inf">
+        <h2>课程安排</h2>
+        <div class="category">
+            <span class="category-box">全部</span>
+            <span class="category-box">HTML</span>
+            <span class="category-box">CSS</span>
+            <span class="category-box">JavaScript</span>
+        </div>
+        <ul>
+            <li class="courses">
+                <img src="image/html.jpeg" alt="">
+                <h3>第一课 初识前端</h3>
+                <p>这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要。</p>
+                <div class="HTML">HTML</div>
+            </li>
+            <li class="courses">
+                <img src="image/css.webp" alt="">
+                <h3>第二课 网页布局</h3>
+                <p>这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要。</p>
+                <div class="CSS">CSS</div>
+            </li>
+            <li class="courses">
+                <img src="image/js.webp" alt="">
+                <h3>第三课 动态的网页</h3>
+                <p>这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要。</p>
+                <div class="JS">JavaScript</div>
+            </li>
+            <li class="courses">
+                <img src="image/endding-class.webp" alt="">
+                <h3>第四课 来做一个漂亮的网站吧</h3>
+                <p>这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要。</p>
+                <div class="HTML">HTML</div>
+                <div class="CSS">CSS</div>
+                <div class="JS">JavaScript</div>
+            </li>
+            <li class="courses">
+                <img src="image/endding-class.webp" alt="">
+                <h3>第五课 该课程待定</h3>
+                <p>这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要。</p>
+                <div class="HTML">HTML</div>
+                <div class="CSS">CSS</div>
+            </li>
+            <li class="courses">
+                <img src="image/endding-class.webp" alt="">
+                <h3>第六课 该课程待定</h3>
+                <p>这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要。</p>
+                <div class="HTML">HTML</div>
+                <div class="JS">JavaScript</div>
+            </li>
+            <li class="courses">
+                <img src="image/endding-class.webp" alt="">
+                <h3>第七课 该课程待定</h3>
+                <p>这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要，这里是课程内容的概要。</p>
+                <div class="CSS">CSS</div>
+                <div class="JS">JavaScript</div>
+            </li>
+        </ul>
+    </div>
+    <!-- 底部 -->
+    <div class="bottom">
+        <span class="bottom-left">
+            <div>L</div>
+            <div>F</div>
+            <div>E</div>
+        </span>
+        <span class="bottom-right">
+            <dl>
+                <dt>Links</dt>
+                <dd>百度技术培训中心</dd>
+                <dd>百度技术</dd>
+                <dd>技术培训中心</dd>
+                <dd>百度技术培训中心</dd>
+                <dd>百度技术</dd>
+            </dl>
+            <dl>
+                <dt>Links</dt>
+                <dd>百度技术培训中心</dd>
+                <dd>百度技术</dd>
+                <dd>技术培训中心</dd>
+                <dd>百度技术培训中心</dd>
+                <dd>百度技术</dd>
+            </dl>
+            <dl>
+                <dt>Links</dt>
+                <dd>百度技术培训中心</dd>
+                <dd>百度技术</dd>
+                <dd>技术培训中心</dd>
+                <dd>百度技术培训中心</dd>
+                <dd>百度技术</dd>
+            </dl>
+        </span>
+    </div>
+</body>
+
+</html>
